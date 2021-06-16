@@ -9,6 +9,7 @@ export default makeStyles({
   },
   border: {
     border: 'solid',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   fullHeightCard: {
     height: '100%',
@@ -20,6 +21,7 @@ export default makeStyles({
     borderRadius: '15px',
     height: '100%',
     position: 'relative',
+    color: '#FF7F50',
   },
   overlay: {
     position: 'absolute',
@@ -31,7 +33,7 @@ export default makeStyles({
     position: 'absolute',
     top: '20px',
     right: '20px',
-    color: 'white',
+    color: '#FF7F50',
   },
   grid: {
     display: 'flex',
